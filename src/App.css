@@ -1,4 +1,49 @@
 .App {
   text-align: center;
   display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+body {
+  background-color: #eeeeee;
+  color: #3a3845;
+  font-family: "Poppins", sans-serif;
+}
+
+.title,
+.subtitle {
+  text-align: center;
+  color: rgb(18, 189, 18);
+}
+
+h3 {
+  text-align: center;
+}
+
+hr {
+  border-top: 4px dashed rgb(10, 19, 141);
+  width: 50%;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(98, 231, 86, 0.2);
+  width: 50%;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  padding: 10px;
+  background-color: #24ce57;
+}
+
+.card > div {
+  padding: 20px;
+  font-size: 15px;
+}
+
+img {
+  width: 30%;
+  border-radius: 50%;
 }
